@@ -1,9 +1,4 @@
-.master{
-    font-family: "Noto Sans", serif;
-    font-optical-sizing: auto;
-    width: 100%;
-    overflow-x: hidden;
-}
+
 .background{
     position: relative;
 }
