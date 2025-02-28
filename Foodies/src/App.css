@@ -11,6 +11,7 @@
 .background{
    position: relative;
    z-index: 0;
+   width: 100%;
 }
 .background1{
    position: absolute;
@@ -347,3 +348,13 @@
    padding-left: 10em;
    padding-right: 10rem;
 }
+
+@media only screen and (max-width: 600px) {
+   .background1{
+      position: absolute;
+      right: 0;
+      z-index: -1;
+      width: 100%;
+      height: 70%;
+   }
+ }

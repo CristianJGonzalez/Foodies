@@ -15,7 +15,7 @@ function App() {
             <Nav />
             {/*Primer Background*/}  
             <img src="/images/Subtract.png" alt="fondo de pantalla" className="background1"/>
-                <div className="container col-xxl-8 px-4 py-5">
+                <div className="container col-xxl-8 px-4 py-lg-5">
                     <div className="row flex-lg-row-reverse align-items-center g-5 py-5">
                       {/*Imagen Hamburguesa*/}   
                       <div className="col-lg-6 col-sm-10 col-lg-6">
