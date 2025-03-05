@@ -6,6 +6,7 @@ import Nav from "./Nav"
 import Footer from "./Footer"
 
 
+
 function App() {
   return (
     <div className='master'>
@@ -16,16 +17,16 @@ function App() {
             {/*Primer Background*/}  
             <img src="/images/Subtract.png" alt="fondo de pantalla" className="background1"/>
                 <div className="container col-xxl-8 px-4 py-lg-5">
-                    <div className="row flex-lg-row-reverse align-items-center g-5 py-5">
+                    <div className="row flex-lg-row-reverse align-items-center g-5 py-lg-5">
                       {/*Imagen Hamburguesa*/}   
                       <div className="col-lg-6 col-sm-10 col-lg-6">
                         <img src="../public/images/hero_hamburger.png" className="d-block mx-lg-auto img-fluid" alt="Hamburguesa" width="700" height="500" loading="lazy"/>
                       </div>
                       {/*Contenido*/} 
                       <div className="col-lg-6">
-                        <h1 className="display-5 fw-bold text-body-emphasis lh-1 mb-3">Un nuevo sabor esta en la ciudad</h1>
+                        <h1 className="display-3 fw-bold text-body-emphasis lh-1 mb-lg-3">Un nuevo <br/>  sabor esta en <br/><span className="span">la ciudad</span></h1>
                         <p className="lead">Estamos a punto de descubrir un mundo lleno de sabores y de emociones inigualables.</p>
-                        <a href="#" className="nav-link text-dark">
+                        <a href="#" className="encuentranos nav-link text-dark">
                             Encuentranos
                             <img src="../public/images/arrow-right.png" alt="flecha" height="30"/>
                           </a>  
@@ -37,11 +38,12 @@ function App() {
           <main className="main">
              {/*---------------First post----------------*/} 
               <section className="section1">
+              <img src="./images/Vector3.png" className="background2" alt="lineas" height="300" />
                   <div className="contain">
                     {/* Image container */}
                     <div className="postSection1">
-                      <img src="./images/Group 22.png" className="img2" alt="Grupo 22" width="600" />
-                      <h2>La comida es nuestra arte</h2>
+                      <img src="./images/Group 22.png" className="img2" alt="Grupo 22"/>
+                      <h2>LA COMIDA ES <span className="span2">NUESTRA ARTE</span></h2>
                     </div>
 
                     {/* Text container first post */}
@@ -52,7 +54,7 @@ function App() {
                         est culpa fugiat consequat culpa consectetur Lorem. Reprehenderit dolore culpa irure eiusmod minim occaecat et id
                         minim ullamco.
                       </p>
-                      <a href="#" className="nav-link text-dark">
+                      <a href="#" className="encuentranos nav-link text-dark">
                         Encuentranos
                         <img src="./images/arrow-right.png" alt="flecha" height="30" />
                       </a>
@@ -107,7 +109,7 @@ function App() {
                 <img className="botedeSalsa" src="./images/ketchup.png" alt="bote de salsa"/>
                 <div className="row d-flex justify-content-center mt-10">
                   <div className="col-lg-7 px-5 text-center">
-                    <div className="container py-5">
+                    <div className="container py-lg-5">
                       <h2 className="text-body-emphasis">“El mejor lugar para degustar en familia y amigos!”</h2>
                       <p className="col-lg-8 mx-auto lead">
                         Es el mejor lugar al que he venido con mi familia, la comida es rica, sirven rápido y te atienden de la mejor manera. 
@@ -132,7 +134,7 @@ function App() {
                         <input type="text" id="fcorreo" name="fcorreo" placeholder="j.doe@correo.com" />
                     </div>
                     <div className="commentTextS4">
-                      <label for="fcomment">Comentario:</label>
+                      <label for="fcomment">Mensaje:</label>
                       <input type="text" id="fname" name="fname"  placeholder="El día de ahora mi experiencia fue..."/>
                     </div>
                 </form>
