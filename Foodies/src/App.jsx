@@ -16,14 +16,14 @@ function App() {
             <Nav />
             {/*Primer Background*/}  
             <img src="/images/Subtract.png" alt="fondo de pantalla" className="background1"/>
-                <div className="container col-xxl-8 px-4 py-lg-5">
-                    <div className="row flex-lg-row-reverse align-items-center g-5 py-lg-5">
+                <div className="container px-4 py-xl-5">
+                    <div className="row flex-md-row-reverse align-items-center g-5 py-md-5">
                       {/*Imagen Hamburguesa*/}   
-                      <div className="col-lg-6 col-sm-10 col-lg-6">
+                      <div className="col-md-6 col-sm-10">
                         <img src="../public/images/hero_hamburger.png" className="d-block mx-lg-auto img-fluid" alt="Hamburguesa" width="700" height="500" loading="lazy"/>
                       </div>
                       {/*Contenido*/} 
-                      <div className="col-lg-6">
+                      <div className="col-md-6">
                         <h1 className="display-3 fw-bold text-body-emphasis lh-1 mb-lg-3">Un nuevo <br/>  sabor esta en <br/><span className="span">la ciudad</span></h1>
                         <p className="lead">Estamos a punto de descubrir un mundo lleno de sabores y de emociones inigualables.</p>
                         <a href="#" className="encuentranos nav-link text-dark">
@@ -38,7 +38,7 @@ function App() {
           <main className="main">
              {/*---------------First post----------------*/} 
               <section className="section1">
-              <img src="./images/Vector3.png" className="background2" alt="lineas" height="300" />
+                  <img src="./images/Vector3.png" className="background2" alt="lineas" height="300" />
                   <div className="contain">
                     {/* Image container */}
                     <div className="postSection1">

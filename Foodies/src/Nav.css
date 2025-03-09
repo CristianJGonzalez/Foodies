@@ -34,7 +34,7 @@
     display: none;
 }
 
-@media only screen and (max-width: 435px) {
+@media only screen and (max-width: 854px) {
 
    .disapear {
     display: none;

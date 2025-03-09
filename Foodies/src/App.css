@@ -363,22 +363,21 @@
    padding-right: 10rem;
 }
 
-@media only screen and (max-width: 600px) {
+@media (max-width: 875px) {
    /* -------------- Hero Section -------------------- */
    .background1{
       position: absolute;
       right: 0;
+      top: 0;
       z-index: -1;
-      width: 100%;
-      height: 70%;
+      width: 60%;
+      height: 40rem;
    }
-   .main{
-      width: 100%;
-      margin-top: 0;
-      }
    /* -------------- Section 1 -------------------- */
    .background2{
-      display: none;
+         width: 100%;
+         top: auto;
+         bottom: 0;
    }
    .main{
       width: 100%;
@@ -397,49 +396,61 @@
    .img2 {
       position: absolute;
       height: 565px;
-      width: 800px;
-      left: -150px;
+      width: 100%;
    }
    .postSection1 h2 {
       position: absolute;
       bottom: 40px;  
       right: 0;
-      width: 80%;
+      width: 65%;
    }
    .sub_contain{
+      padding-top: 6rem;
+      padding-bottom: 6rem;
       width: 100%;
    }
-   /* -------------- Section 2 -------------------- */
-   .section2 {
+    /* -------------- Section 2 -------------------- */
+    .section2 {
       display: flex;
       flex-direction: column;
       width: 100%;
-      margin-top: 0;
+      margin-top: 2rem;
    }
    .firstContainerS2{
       display: flex;
       flex-direction: column;
-      align-items: center;
+      align-items: start;
       width: 100%;
    }
+   .firstContainerS2 h2{
+      padding-left: 3rem;
+   }
    .secondContainerS2{
-      display: none;
+      width: 100%;
+      margin-top: 2rem;
+   }
+   .secondContainerS2 img{
+      width: 100%;
+      height: 457px;
    }
    /* -------------- Section 3 -------------------- */
    .section3{
       position: relative;
       width: 100%;
       height: 35rem;
-      margin-top: 0;
+      margin-top: 5rem;
    }
    .salsa1{
-      display: none;
-   }
-   .salsa2{
-      display: none;
+      position: absolute;
+      top: -60px;
    }
    .botedeSalsa {
       display: none;
+   }
+   .section3 h2 {
+      margin-top: 8rem;
+      font-size: 36px;
+      font-weight: 800;
    }
    /* -------------- Section 4 -------------------- */
    .section4{
@@ -484,5 +495,64 @@
    .buttonS4{
       justify-content: center;
    }
+}
+
+@media only screen and (max-width: 500px) {
+   /* -------------- Hero Section -------------------- */
+   .background1{
+      position: absolute;
+      right: 0;
+      z-index: -1;
+      width: 100%;
+      height: 70%;
+   }
+   .main{
+      width: 100%;
+      margin-top: 0;
+      }
+   /* -------------- Section 1 -------------------- */
+   .background2{
+      display: none;
+   }
+   .img2 {
+      position: absolute;
+      height: 565px;
+      width: 800px;
+      left: -150px;
+   }
+   .postSection1 h2 {
+      position: absolute;
+      bottom: 40px;  
+      right: 0;
+      width: 80%;
+   }
+   /* -------------- Section 2 -------------------- */
+   .section2 {
+      margin-top: 0;
+   }
+   .firstContainerS2 h2{
+      padding-left: 0;
+   }
+   .secondContainerS2{
+      display: none;
+   }
+   /* -------------- Section 3 -------------------- */
+   .section3{
+      position: relative;
+      width: 100%;
+      height: 35rem;
+      margin-top: 0;
+   }
+   .salsa1{
+      display: none;
+   }
+   .salsa2{
+      display: none;
+   }
+   .botedeSalsa {
+      display: none;
+   }
    /* -------------- Section 4 -------------------- */
+   
+   /* -------------- Section 5 -------------------- */
  }
