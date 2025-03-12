@@ -5,6 +5,13 @@
     font-weight: 500;
     font-size: 22px;
  }
+ .text-black {
+   color: black !important;
+ }
+ 
+ .text-white {
+   color: white !important;
+ }
 
  @media (max-width: 875px) {
     /* -------------- Hero Section -------------------- */

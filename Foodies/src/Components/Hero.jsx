@@ -1,6 +1,16 @@
 import PropTypes from 'prop-types';
+import "bootstrap/dist/css/bootstrap.min.css";
+import "bootstrap/dist/js/bootstrap.bundle.min.js";
+import { useState } from 'react';
+import "./Hero.css"
 
 function Hero(props) {
+  const [bgColor] = useState(props.color || 'white');
+
+
+  const textClass = bgColor === 'black' ? 'text-white' : 'text-black';
+
+
 
   return (
     <div>
@@ -12,11 +22,11 @@ function Hero(props) {
                       </div>
                       {/*Contenido*/} 
                       <div className="col-md-6">
-                        <h1 className="display-3 fw-bold text-body-emphasis lh-1 mb-lg-3">{props.h1}<span className="span">{props.span}</span></h1>
+                        <h1 className={`display-3 fw-bold text-body-emphasis lh-1 mb-lg-3 ${textClass}`}>{props.h1}<span className="span">{props.span}</span></h1>
                         <p className="lead">{props.p}</p>
                         <a href="#" className="encuentranos nav-link text-dark">
                             {props.enc}
-                            <img src={props.src2} alt="flecha" height="30"/>
+                            <img src={props.src2} height="30"/>
                           </a>  
                       </div>
                     </div>
@@ -27,6 +37,7 @@ function Hero(props) {
 
 Hero.propTypes = {
     src: PropTypes.string,
+    color: PropTypes.string,
     h1: PropTypes.string,
     span: PropTypes.string,
     p: PropTypes.string,

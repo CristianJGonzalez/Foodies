@@ -1,9 +1,9 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min.js";
 import "./App.css"
-import Nav from "./Nav"
-import Footer from "./Footer"
-import Hero from "./Hero";
+import Nav from "./Components/Nav"
+import Footer from "./Components/Footer"
+import Hero from "./Components/Hero";
 
 
 
@@ -18,7 +18,7 @@ function App() {
             <img src="/images/Subtract.png" alt="fondo de pantalla" className="background1"/>
             <Hero 
             src="/images/hero_hamburger.png" 
-            h1="Un nuevo sabor esta en "
+            h1="Un nuevo  sabor esta en "
             span="la ciudad"
             p="Estamos a punto de descubrir un mundo lleno de sabores y de emociones inigualables."
             enc="Encuentranos"

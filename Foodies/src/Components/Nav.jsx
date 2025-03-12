@@ -1,8 +1,9 @@
 import "./Nav.css"
+import PropTypes from 'prop-types';
 import { useState }  from "react";
 
 function Nav(props) {
-  const [bgColor, setBgColor] = useState(props.color);
+  const [bgColor] = useState(props.color || "white");
 
 
   return (
@@ -25,5 +26,10 @@ function Nav(props) {
     </nav>
   )
 }
+
+
+Nav.propTypes = {
+    color: PropTypes.string,
+  };
 
 export default Nav
