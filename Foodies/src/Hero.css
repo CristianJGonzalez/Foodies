@@ -1,0 +1,17 @@
+.span{
+    background-color: #FFC700;
+ }
+ .encuentranos {
+    font-weight: 500;
+    font-size: 22px;
+ }
+
+ @media (max-width: 875px) {
+    /* -------------- Hero Section -------------------- */
+   
+ }
+
+ @media (max-width: 500px) {
+    /* -------------- Hero Section -------------------- */
+
+ }

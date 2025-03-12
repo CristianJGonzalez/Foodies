@@ -1,38 +1,29 @@
-import { useState } from 'react'
-import 'bootstrap/dist/css/bootstrap.min.css';
-import 'bootstrap/dist/js/bootstrap.bundle.min.js';
-import './App.css'
+import "bootstrap/dist/css/bootstrap.min.css";
+import "bootstrap/dist/js/bootstrap.bundle.min.js";
+import "./App.css"
 import Nav from "./Nav"
 import Footer from "./Footer"
+import Hero from "./Hero";
 
 
 
 function App() {
   return (
-    <div className='master'>
+    <div className="master">
         {/*-----------------Hero Section-------------------*/}  
           <header className="background">
             {/*--------------Nav Bar--------------*/}   
-            <Nav />
+            <Nav color="white" />
             {/*Primer Background*/}  
             <img src="/images/Subtract.png" alt="fondo de pantalla" className="background1"/>
-                <div className="container px-4 py-xl-5">
-                    <div className="row flex-md-row-reverse align-items-center g-5 py-md-5">
-                      {/*Imagen Hamburguesa*/}   
-                      <div className="col-md-6 col-sm-10">
-                        <img src="../public/images/hero_hamburger.png" className="d-block mx-lg-auto img-fluid" alt="Hamburguesa" width="700" height="500" loading="lazy"/>
-                      </div>
-                      {/*Contenido*/} 
-                      <div className="col-md-6">
-                        <h1 className="display-3 fw-bold text-body-emphasis lh-1 mb-lg-3">Un nuevo <br/>  sabor esta en <br/><span className="span">la ciudad</span></h1>
-                        <p className="lead">Estamos a punto de descubrir un mundo lleno de sabores y de emociones inigualables.</p>
-                        <a href="#" className="encuentranos nav-link text-dark">
-                            Encuentranos
-                            <img src="../public/images/arrow-right.png" alt="flecha" height="30"/>
-                          </a>  
-                      </div>
-                    </div>
-                </div>
+            <Hero 
+            src="/images/hero_hamburger.png" 
+            h1="Un nuevo sabor esta en "
+            span="la ciudad"
+            p="Estamos a punto de descubrir un mundo lleno de sabores y de emociones inigualables."
+            enc="Encuentranos"
+            src2="/images/arrow-right.png"
+            />
           </header> 
           {/*---------------Main container-----------------*/} 
           <main className="main">
@@ -122,7 +113,7 @@ function App() {
               <section className="section4">
                 <div className="textS4">
                     <h2>Cuentanos tu experiencia</h2>
-                    <p>Don't miss out on our great offers & Receive deals from all our
+                    <p>Don&apost miss out on our great offers & Receive deals from all our
                         top restaurants via e-mail.</p>
                 </div>
                 {/* Comments box */}
@@ -134,7 +125,7 @@ function App() {
                         <input type="text" id="fcorreo" name="fcorreo" placeholder="j.doe@correo.com" />
                     </div>
                     <div className="commentTextS4">
-                      <label for="fcomment">Mensaje:</label>
+                      <label htmlFor="fcomment">Mensaje:</label>
                       <input type="text" id="fname" name="fname"  placeholder="El día de ahora mi experiencia fue..."/>
                     </div>
                 </form>

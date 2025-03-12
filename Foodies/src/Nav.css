@@ -12,6 +12,12 @@
     font-weight: 900;
 }
 
+.logo{
+    margin-left: 4rem;
+    font-size: 27px;
+    font-weight: 900;
+}
+
 .options{
     display: flex;
     height: 100%;
