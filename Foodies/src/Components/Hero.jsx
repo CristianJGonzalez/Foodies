@@ -21,8 +21,8 @@ function Hero(props) {
                         <img src={props.src} className="d-block mx-lg-auto img-fluid" alt="Hamburguesa" width="700" height="500" loading="lazy"/>
                       </div>
                       {/*Contenido*/} 
-                      <div className="col-md-6">
-                        <h1 className={`display-3 fw-bold text-body-emphasis lh-1 mb-lg-3 ${textClass}`}>{props.h1}<span className="span">{props.span}</span></h1>
+                      <div className="col-md-6 px-lg-5 px-xs-5 px-md-1 phone">
+                        <h1 className={`text display-3 display-sm-5 fw-bold text-body-emphasis lh-1 mt-xs-5 mb-lg-3 ${textClass}`}>{props.h1}</h1>
                         <p className="lead">{props.p}</p>
                         <a href="#" className="encuentranos nav-link text-dark">
                             {props.enc}

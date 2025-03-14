@@ -15,11 +15,11 @@ function App() {
             {/*--------------Nav Bar--------------*/}   
             <Nav color="white" />
             {/*Primer Background*/}  
-            <img src="/images/Subtract.png" alt="fondo de pantalla" className="background1"/>
+            <img src="/images/Subtract.png" alt="fondo de pantalla" className="background1"/>\
+            <img src="/images/span.png" alt="fondo de pantalla" className="span"/>
             <Hero 
             src="/images/hero_hamburger.png" 
-            h1="Un nuevo  sabor esta en "
-            span="la ciudad"
+            h1="Un nuevo  sabor esta en la ciudad"
             p="Estamos a punto de descubrir un mundo lleno de sabores y de emociones inigualables."
             enc="Encuentranos"
             src2="/images/arrow-right.png"
@@ -141,6 +141,12 @@ function App() {
                 <img className="phoneS5" src="./images/phone.png" alt="phone" />
               </div>
               <div className="section5Info">
+                <img src="./images/Group1.png" alt="grupo1" className="group1"/>
+                <img src="./images/Group2.png" alt="grupo2" className="group2"/>
+                <img src="./images/Group3.png" alt="grupo3" className="group3"/>
+                <img src="./images/spanFinal.png" alt="span" className="spanFinal"/>
+                <img src="./images/LineaDerecha.png" alt="derecha" className="lineaD"/>
+                <img src="./images/LineaIzquierda1.png" alt="izquierda" className="lineaI"/>
                 <h2>Obten más beneficios<br />Descarga nuestra app</h2>
                 <div className="containerGridS5">
                   <div className="gridContainer1">
