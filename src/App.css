@@ -371,32 +371,32 @@
 }
 .group1{
    position: absolute;
-   left: 150px;
-   top: 220px;
+   left: 9.375rem;
+   top: 13.75rem;
 }
 .group2{
    position: absolute;
-   right: 150px;
-   top: 220px;
+   right: 9.375rem; 
+   top: 13.75rem;
 }
 .group3{
    position: absolute;
-   top: 450px;
-   left: 31 0px;
+   top: 28.125rem;
+   left: 19.375rem;
 }
 .lineaD{
    position: absolute;
-   top: 240px;
-   left: 90px;
+   top: 15rem;
+   left: 5.625rem;
 }
 .lineaI{
    position: absolute;
-   top: 240px;
-   right: 80px;
+   top: 15rem;
+   right: 5rem;
 }
 .spanFinal{
    position: absolute;
-   top: 120px;
+   top: 7.5rem;
    width: 25rem;
    z-index: -1;
 }
