@@ -3,7 +3,7 @@
    width: 100vw;
    margin: 0;
    padding: 0;
-   font-family: "Noto Sans", sans-serif;
+   font-family: "Poppins", sans-serif;
    overflow-x: hidden;
 }
 
@@ -25,8 +25,9 @@
 .span{
    position: absolute;
    top: 21.875rem;
-   left: 6.25rem;
-   width: 21.25rem;
+   left: 5rem;
+   height: 4rem;
+   width: 22rem;
    z-index: -1;
 }
 
