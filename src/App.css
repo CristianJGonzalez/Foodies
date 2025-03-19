@@ -155,7 +155,7 @@
    border: 1px solid #ccc;
    border-radius: 4px;
    box-sizing: border-box;
-   background-image: url('./images/search.png');
+   background-image: url('../public/images/search.png');
    background-position: 10px 10px; 
    background-repeat: no-repeat;
    padding: 12px 20px 12px 40px;
