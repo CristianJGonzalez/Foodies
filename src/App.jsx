@@ -15,7 +15,7 @@ function App() {
             {/*--------------Nav Bar--------------*/}   
             <Nav color="white" />
             {/*Primer Background*/}  
-            <img src="/images/Subtract.png" alt="fondo de pantalla" className="background1"/>\
+            <img src="/images/Subtract.png" alt="fondo de pantalla" className="background1"/>
             <img src="/images/span.png" alt="fondo de pantalla" className="span"/>
             <Hero 
             src="/images/hero_hamburger.png" 

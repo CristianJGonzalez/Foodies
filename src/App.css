@@ -705,17 +705,17 @@
       padding-right: 0;
    }
    .group1{
-      left: 190px;
-      top: 150px;
+      left: 11.875rem;
+      top: 9.375rem;
    }
    .group2{
       right: auto;
-      left: 190px;
-      top: 340px;
+      left: 11.875rem;
+      top: 21.25rem;
    }
    .group3{
-      left: 190px;
-      top: 530px;
+      left: 11.875rem;
+      top: 33.125rem;
    }
    .lineaD{
       display: none;
