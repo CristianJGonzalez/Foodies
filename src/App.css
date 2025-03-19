@@ -24,9 +24,9 @@
 
 .span{
    position: absolute;
-   top: 375px;
-   left: 100px;
-   width:340px;
+   top: 21.875rem;
+   left: 6.25rem;
+   width: 21.25rem;
    z-index: -1;
 }
 
