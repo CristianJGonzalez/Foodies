@@ -22,7 +22,7 @@ function Hero(props) {
                       </div>
                       {/*Contenido*/} 
                       <div className="col-md-6 px-lg-4 px-xs-5 px-md-1 phone">
-                        <h1 className={`text display-3 display-sm-5 fw-bold text-body-emphasis lh-1 mt-xs-5 mb-lg-3 ${textClass}`}>{props.h1}</h1>
+                        <h1 className={`text display-3 display-sm-5 lh-1 mt-xs-5 mb-lg-3 ${textClass}`}>{props.h1}</h1>
                         <p className="lead">{props.p}</p>
                         <a href="#" className="encuentranos nav-link text-dark">
                             {props.enc}
