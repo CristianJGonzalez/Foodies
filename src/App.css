@@ -731,8 +731,33 @@
    }
  }
 
+ @media only screen and (max-width: 412px) {
+   .span{
+      width: 22rem;
+   }
 
- @media only screen and (max-width: 414px) {
+
+      /* -------------- Section 5 -------------------- */
+   .group1{
+      left: 11rem;
+      top: 9.375rem;
+   }
+   .group2{
+      right: auto;
+      left: 11rem;
+      top: 21.5rem;
+   }
+   .group3{
+      left: 11rem;
+      top: 33.5rem;
+   }
+   .spanFinal{
+      height: 3rem;
+      top: 40px;  
+   }
+ }
+
+ @media only screen and (max-width: 390px) {
        /* -------------- Heroo -------------------- */
    .span{
       width: 22rem;
