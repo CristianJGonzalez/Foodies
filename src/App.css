@@ -615,7 +615,7 @@
       top: auto;
       bottom: 140px;
       left: 15px;
-      height: 70px;
+      height: 3.5rem;
       width:260px;
       z-index: -1;
    }   
@@ -741,11 +741,11 @@
    .group2{
       right: auto;
       left: 11rem;
-      top: 22.8rem;
+      top: 21.5rem;
    }
    .group3{
       left: 11rem;
-      top: 36rem;
+      top: 33.5rem;
    }
    .spanFinal{
       height: 3rem;
