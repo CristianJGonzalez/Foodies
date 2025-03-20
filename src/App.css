@@ -415,8 +415,9 @@
    }
    .span{
       position: absolute;
-      top: 14.375rem;
-      left: 3.125rem;
+      top: 13.5rem;
+      left: 3.4rem;
+      width: 23rem;
    }
    /* -------------- Section 1 -------------------- */
    .background2{
